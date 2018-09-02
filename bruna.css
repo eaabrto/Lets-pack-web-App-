@@ -1,0 +1,189 @@
+body {
+    background-image: url(img/signin.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#cover{
+     background-image: url(img/error.jpg);
+    background-size: cover;
+}
+
+#profile {
+        background-image: url(img/profile.jpg);
+    background-size: cover;
+}
+
+#sign {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+    text-align: center;
+    margin: 5%;
+    margin-bottom: 10%;
+}
+
+#error{
+    font-size: 3em;
+    text-align: center;
+    margin: 5%;
+    margin-bottom: -3%;
+}
+
+.sin {
+    margin-top: 1%;
+    color: black;
+}
+
+
+#sorry{
+    font-size: 2.5em;
+    text-align: center;
+    color: black;
+    
+}
+
+h1, p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+#image{
+    font-size: 2em;
+    text-align: center;
+    margin: 5%;
+    margin-bottom: 8%;
+    margin-top: -2%;
+}
+
+#guy {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-bottom: -6%;
+}
+
+.inline{
+    display: inline;
+    margin-left: 2.5%;
+    font-size: 0.8em;
+    padding-left: 5%;
+}
+
+.vl {
+    border-left: 1.5px solid black;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.flex-container>div {
+    width: 100px;
+    text-align: right;
+    line-height: 75px;
+}
+
+.logo {
+    position: relative;
+    right: 35px;
+    margin-top: 5px;
+    padding-left: 10px;
+}
+
+.login {
+    position: relative;
+    padding-right: 5px;
+    padding-top: 9px;
+    
+}
+
+/* Tekst på forsiden */
+
+.box {
+    background-color: white;
+    border-radius: 20px;
+    margin: 2%;
+    padding: 2%;
+    margin-bottom: 5%;
+}
+
+.box1 {
+    background-color: white;
+    border-radius: 20px;
+    margin: 2%;
+    padding: 2%;
+    margin-bottom: 5%;
+}
+
+.border {
+    background-color: white;
+    border-radius: 20px;
+    margin: 2%;
+    padding: 2%;
+    margin-bottom: 5%;
+    opacity: 0.7;
+}
+
+
+/* Button */
+
+.btn {
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+
+.default {
+    border-color: #e7e7e7;
+    color: black;
+}
+
+.default:hover {
+    background: #e7e7e7;
+}
+
+div {
+    text-align: center;
+}
+
+
+hr {
+  height: 4px;
+color: #123455;
+background-color: gray;
+border: none;
+}
+
+#face {
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    
+}
+
+form{
+    display: flex;
+    justify-content: center; ;
+}
+
+form input {
+    border: 0;
+    padding: 1%;
+    width: 93%;
+    height: 30px;
+    font-size: 100%;
+    border-radius: 15px;
+    text-align: center;
+    font-family:'Montserrat';
+}

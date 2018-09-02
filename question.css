@@ -1,0 +1,133 @@
+body {
+    background-image: url(img/back3.jpg);
+    background-size: 150%;
+}
+
+.back2{
+    background-image: url(img/back4.jpg);
+    background-size: 150%;
+}
+
+.back3{
+    background-image: url(img/back5.jpg);
+    background-size: 150%;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.flex-container>div {
+    width: 100px;
+    text-align: right;
+    line-height: 75px;
+}
+
+.logo {
+    position: relative;
+    right: 35px;
+    margin-top: 5px;
+    padding-left: 10px;
+}
+
+.login {
+    position: relative;
+    padding-right: 5px;
+    padding-top: 9px;
+}
+
+
+/* Tekst på forsiden */
+
+.overskrift {
+    background-color: white;
+    border-radius: 20px;
+    margin: 5%;
+    padding: 5%;
+}
+
+.destination {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+
+/* Button */
+
+.btn {
+    border: 2px solid #e7e7e7;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    margin-top: 20%;
+}
+
+.btn:hover {
+    background-color: #efefef
+}
+
+.default {
+    border-color: #e7e7e7;
+    color: black;
+}
+
+.default:hover {
+    background: #e7e7e7;
+}
+
+div {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    padding: 5%;
+}
+
+form input {
+    border: 0;
+    padding: 1%;
+    width: 93%;
+    height: 30px;
+    font-size: 100%;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Montserrat';
+}
+
+.btn span {
+    cursor: pointer; 
+    display: inline-block;
+    position: relative; 
+    transition: 0.5s;
+}
+
+.btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.btn:hover span {
+    padding-right: 25px;
+  }
+  
+  .btn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+
