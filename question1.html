@@ -11,7 +11,7 @@
 <meta charset="utf-8">
 
 <!-- Dette tag linker mit stylesheet til html filen-->
-<link rel="stylesheet" type="text/css" href="question.css">
+<link rel="stylesheet" type="text/css" href="css/question.css">
 
 <link href="https://fonts.googleapis.com/css?family=Montserrat:300" rel="stylesheet">
 
@@ -20,15 +20,15 @@
     <div class="flex-container">
 
         <div class="logo">
-            <a href="index.html"><img src="img/logo.png" style="width:42%" class="logo"></a>
+            <a href="index.html"><img src="img/logo.png" style="width:35%" class="logo"></a>
         </div>
 
         <div class="login">
-            <a href="signin.html"><img src="img/logo%20hvid.png" style="width:37%" class="login"></a>
-    </div>
+            <a href="signin.html"><img src="img/login2.png" style="width:37%" class="login"></a>
+        </div>
 
     </div>
-    </head>
+</head>
 
 <body>
 
@@ -36,26 +36,36 @@
 
 
     <div class="overskrift">
-        <h1 class="destination">What is your destination?</h1>
+        <h1 class="destination">What kind of trip a you going on?</h1>
     </div>
     <main>
 
 
 
-        <!--Søge boks-->
+        <!--Checkboxes-->
+
+        <div class="check">
+            <label class="container">Package holidays
+  <input type="radio" name="radio">
+  <span class="checkmark"></span>
+</label>
+            <label class="container">Active vacation
+  <input type="radio" name="radio">
+  <span class="checkmark"></span>
+</label>
+            <label class="container">Skiing vacation
+  <input type="radio" name="radio">
+  <span class="checkmark"></span>
+</label>
+            <label class="container">City breaks
+  <input type="radio" name="radio">
+  <span class="checkmark"></span>
+</label>
 
 
-        <form>
-            <input type="text" name="search" placeholder="Search..">
-        </form>
-
-        <!--Sog knap-->
-
-
-        <div class="botten2">
-            <a href="question2.html"><button class="btn"><span>NEXT</span></button></a>
-
+            <a href="question2.html"><button class="btn default" type="next" value="next"><span>NEXT QUESTION</span></button></a>
         </div>
+
 
 
 

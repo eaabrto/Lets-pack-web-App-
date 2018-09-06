@@ -11,7 +11,7 @@
 <meta charset="utf-8">
 
 <!-- Dette tag linker mit stylesheet til html filen-->
-<link rel="stylesheet" type="text/css" href="question.css">
+<link rel="stylesheet" type="text/css" href="css/question.css">
 
 <link href="https://fonts.googleapis.com/css?family=Montserrat:300" rel="stylesheet">
 
@@ -24,7 +24,7 @@
         </div>
 
         <div class="login">
-            <a href="signin.html"><img src="img/logo.png" style="width:37%" class="login"></a></div>
+            <a href="signin.html"><img src="img/login2.png" style="width:37%" class="login"></a></div>
         </div>
 
 </head>
@@ -35,26 +35,31 @@
 
 
    <div class="overskrift">
-        <h1 class="destination">Are you a male or female?</h1>
+        <h1 class="destination">Are you male or female?</h1>
     </div>
         <main>
   
 
 
-<!--Søge boks-->    
+ <!--Checkboxes-->
 
+        <div class="check">
+            <label class="container">Male
+  <input type="radio" name="radio">
+  <span class="checkmark"></span>
+</label>
+            <label class="container">Female
+  <input type="radio" name="radio">
+  <span class="checkmark"></span>
+</label>
+            <label class="container">Other
+  <input type="radio" name="radio">
+  <span class="checkmark"></span>
+</label>
+        
 
-<form>
-  <input type="text" name="search" placeholder="Search..">
-</form>
-    
-<!--Sog knap-->
-
-    
-<div class="botten2">
-    <a href="packinglist.html"><button class="btn"><span>DONE!</span></button></a>
-
-    </div>
+            <a href="packinglist.html"><button class="btn default" type="next" value="next"><span>DONE!</span></button></a>
+        </div>
 
 
 
